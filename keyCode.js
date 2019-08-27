@@ -15,5 +15,4 @@ let
     canvas,
     ctx,
     keystate,
-    frames,
     score;

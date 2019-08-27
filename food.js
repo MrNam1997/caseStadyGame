@@ -8,6 +8,6 @@ function setFood() {
         }
     }
 
-    let randpos = empty[Math.round(Math.random() * (empty.length - 1))];
-    grid.set(FRUIT, randpos.x, randpos.y);
+    let randomFood = empty[Math.round(Math.random() * (empty.length - 1))];
+    grid.set(FRUIT, randomFood.x, randomFood.y);
 }

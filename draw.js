@@ -1,5 +1,6 @@
 function draw() {
     let tw = canvas.width / grid.width;
+    console.log(tw);
     let th = canvas.height / grid.height;
 
     for (let x = 0; x < grid.width; x++) {
@@ -20,7 +21,7 @@ function draw() {
     }
 
     ctx.fillStyle = "blue";
-    ctx.fillText("SCORE: " + score, 10, canvas.height - 10);
+    ctx.fillText("SCORE: " + score, 200, canvas.height - 10);
 }
 
 main();

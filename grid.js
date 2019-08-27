@@ -1,8 +1,4 @@
 grid = {
-    width: null,
-    height: null,
-    grid: null,
-
     init: function (direction, width, height) {
         this.width = width;
         this.height = height;

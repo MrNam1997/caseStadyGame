@@ -1,5 +1,5 @@
 function update() {
-    frames++;
+    frames++;   
     if (keystate[KEY_LEFT] && snake.direction !== RIGHT) {
         snake.direction = LEFT;
     }
